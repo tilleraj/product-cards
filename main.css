@@ -1,3 +1,67 @@
 body {
     background-color: lightslategrey;
 }
+
+.card {
+    box-shadow: 3px 3px 10px 1px;
+    max-width: 33vh;
+    margin: 15px;
+    background-color: whitesmoke;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-title{
+    border-style: solid;
+    border-color: lightblue;
+    border-width: 1px;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.product-title > p {
+    margin: 10px 0px;
+}
+
+.image-element{
+    text-align: center;
+
+}
+
+.image-element > img {
+    box-shadow: 2px 2px 4px -2px;
+}
+
+.description-element{
+    text-align: justify;
+    padding: 0px 15px;
+}
+
+.section2 {
+    padding: 0px 15px;
+}
+.section2 p, .section3 p{
+    margin: 5px 0px;
+}
+
+.section3 {
+    padding: 0px 15px;
+}
+
+.availability-element{
+    background-color: darkgrey;
+    color: yellow;
+    padding-left: 15px;
+}
+h3{
+    border-style: none none solid none;
+    border-width: 1px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
