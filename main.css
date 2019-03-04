@@ -1,18 +1,32 @@
-body {
-    background-color: lightslategrey;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.card {
-    box-shadow: 3px 3px 10px 1px;
-    max-width: 33vh;
-    margin: 15px;
-    background-color: whitesmoke;
+body {
+    background-color: lightslategrey;
 }
 
 .card-container{
     display: flex;
     justify-content: space-around;
+}
+
+.card-grid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row;
+    /* align-items: center; */
+}
+
+.card {
+    box-shadow: 3px 3px 10px 1px;
+    width: 275px;
+    margin: 15px;
+    background-color: whitesmoke;
 }
 
 .product-title{
@@ -36,6 +50,7 @@ body {
 
 .image-element > img {
     box-shadow: 2px 2px 4px -2px;
+    max-width: 100%;
 }
 
 .description-element{
@@ -64,4 +79,40 @@ h3{
     border-width: 1px;
     margin-bottom: 5px;
     margin-top: 10px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .card-grid {
+        width: 100%;
+    }
+    .card {
+        width: 275px;
+    }
+    
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .card-grid {
+        width: 990px;
+    }
+    .card {
+        width: 275px;
+    }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .card-grid {
+        width: 990px;
+    }
+    .card {
+        width: 275px;
+    }
+
 }
