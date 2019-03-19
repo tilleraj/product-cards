@@ -1,6 +1,6 @@
 # Product Cards
-Displays products as flex-items.
-Applies styling to div tags by class.
+Displays products as flex-items.  
+Applies styling to div tags by class.  
 Displays sold-out stamp using position absolute.
 
 ## Screenshots
