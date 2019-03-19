@@ -28,7 +28,8 @@ $ npm install -g http-server
 ```
 
 ## Running
+1. Navigate to the project folder in command line interface and type:
 ```
-1. Navigate to the project folder in command line interface and type: hs -p 8000  
-2. In your web browser, navigate to: http://localhost:8000
+$ hs -p 8000  
 ```
+2. In your web browser, navigate to: [http://localhost:8080](http://localhost:8000)
